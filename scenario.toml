@@ -8,6 +8,7 @@ name = "purple_web_agent"
 env = {  OPENAI_API_KEY = "${OPENAI_API_KEY}", GREEN_LLM_PROVIDER = "openai", GREEN_OPENAI_MODEL = "gpt-5", }
 
 
+
 [config]
 # Add your assessment config here
 # Domain-specific settings
