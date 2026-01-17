@@ -1,0 +1,28 @@
+[green_agent]
+agentbeats_id = "019bc371-7da8-7023-ab80-1c922841859d"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", GREEN_LLM_PROVIDER = "openai", GREEN_OPENAI_MODEL = "gpt-5", LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "019bc37c-3820-7993-bda5-a15ba1fadfcb"
+name = "purple_web_agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", PURPLE_LLM_PROVIDER = "openai", PURPLE_OPENAI_MODEL = "gpt-5" }
+
+
+
+[config]
+# Add your assessment config here
+# Domain-specific settings
+domain = "browsergym"  # benchmark domain: browsergym, airline, etc.
+
+# Assessment execution settings
+timeout_seconds = 120  # Default timeout for the whole assessment run (seconds)
+max_steps = 10  # Default max steps per task (passed to Green Agent)
+max_tasks_per_benchmark = 2  # Default max tasks per benchmark
+headless = true  # Browser visibility (false = visible, true = headless)
+
+[[benchmarks]]
+id = "miniwob"
+# Uses global max_tasks_per_benchmark (2 tasks)
+# AssistantBench - HuggingFace tasks (ready to use)
+[[benchmarks]]
+id = "assistantbench"

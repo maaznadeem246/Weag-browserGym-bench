@@ -1,0 +1,73 @@
+{
+  "participants": {
+    "purple_web_agent": "019bc37c-3820-7993-bda5-a15ba1fadfcb"
+  },
+  "results": [
+    {
+      "mode": "multi",
+      "run_id": "miniwob.click-test",
+      "orchestrated_by_llm": true,
+      "total_tasks": 1,
+      "passed_tasks": 1,
+      "failed_tasks": 0,
+      "completed_tasks": 1,
+      "success_rate": 1.0,
+      "total_tokens": 0,
+      "total_latency_ms": 0,
+      "total_actions": 0,
+      "benchmarks": [
+        "miniwob"
+      ],
+      "task_results": [
+        {
+          "task_id": "miniwob.click-test",
+          "benchmark": "miniwob",
+          "task_index": 0,
+          "status": "completed",
+          "success": true,
+          "final_reward": 1.0,
+          "done": true,
+          "truncated": false,
+          "metrics": {
+            "tokens": 0,
+            "latency_ms": 0,
+            "actions": 0,
+            "observations": 0,
+            "mcp_calls": 0
+          },
+          "start_time": "2026-01-17T12:57:28.276762",
+          "end_time": "2026-01-17T12:57:28.278542",
+          "completion_time": 0.0005154609680175781,
+          "error": null
+        }
+      ],
+      "participants": {
+        "purple_agent": {
+          "tasks": [
+            {
+              "task_id": "miniwob.click-test",
+              "benchmark": "miniwob",
+              "task_index": 0,
+              "status": "completed",
+              "success": true,
+              "final_reward": 1.0,
+              "done": true,
+              "truncated": false,
+              "metrics": {
+                "tokens": 0,
+                "latency_ms": 0,
+                "actions": 0,
+                "observations": 0,
+                "mcp_calls": 0
+              },
+              "start_time": "2026-01-17T12:57:28.276762",
+              "end_time": "2026-01-17T12:57:28.278542",
+              "completion_time": 0.0005154609680175781,
+              "error": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
