@@ -20,9 +20,4 @@ max_tasks_per_benchmark = 2  # Default max tasks per benchmark
 headless = true  # Browser visibility (false = visible, true = headless)
 
 
-[[benchmarks]]
-id = "miniwob"
-# Uses global max_tasks_per_benchmark (2 tasks)
-# AssistantBench - HuggingFace tasks (ready to use)
-[[benchmarks]]
-id = "assistantbench"
+
