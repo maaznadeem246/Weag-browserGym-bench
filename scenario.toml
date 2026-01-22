@@ -13,7 +13,7 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", PURPLE_LLM_PROVIDER = "openai", PU
 # Add your assessment config here
 # Domain-specific settings
 domain = "browsergym"  # benchmark domain: browsergym, airline, etc.
-
+benchmarks = ["miniwob", "assistantbench"]
 # Assessment execution settings
 timeout_seconds = 120  # Default timeout for the whole assessment run (seconds)
 max_steps = 10  # Default max steps per task (passed to Green Agent)
