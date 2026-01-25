@@ -17,7 +17,7 @@ domain = "browsergym"  # benchmark domain: browsergym, airline, etc.
 # Assessment execution settings
 timeout_seconds = 120  # Default timeout for the whole assessment run (seconds)
 max_steps = 10  # Default max steps per task (passed to Green Agent)
-max_tasks_per_benchmark = 2  # Default max tasks per benchmark
+max_tasks_per_benchmark = 3  # Default max tasks per benchmark
 headless = true  # Browser visibility (false = visible, true = headless)
 
 
