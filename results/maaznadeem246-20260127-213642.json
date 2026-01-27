@@ -1,0 +1,125 @@
+{
+  "participants": {
+    "purple_web_agent": "019bc37c-3820-7993-bda5-a15ba1fadfcb"
+  },
+  "results": [
+    {
+      "status": "timeout",
+      "error": "Assessment exceeded 420s timeout",
+      "timeout_config": {
+        "total_tasks": 2,
+        "timeout_per_task": 120,
+        "executor_timeout": 420.0
+      },
+      "partial_results": {
+        "mode": "multi",
+        "run_id": "miniwob.click-test",
+        "orchestrated_by_llm": true,
+        "total_tasks": 2,
+        "passed_tasks": 0,
+        "failed_tasks": 0,
+        "completed_tasks": 0,
+        "success_rate": 0.0,
+        "total_tokens": 0,
+        "total_latency_ms": 0,
+        "total_actions": 0,
+        "benchmarks": [
+          "miniwob",
+          "assistantbench"
+        ],
+        "task_results": [
+          {
+            "task_id": "miniwob.ascending-numbers",
+            "benchmark": "miniwob",
+            "task_index": 0,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          },
+          {
+            "task_id": "assistantbench.imp.0",
+            "benchmark": "assistantbench",
+            "task_index": 1,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          }
+        ],
+        "participants": {
+          "purple_agent": {
+            "tasks": [
+              {
+                "task_id": "miniwob.ascending-numbers",
+                "benchmark": "miniwob",
+                "task_index": 0,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              },
+              {
+                "task_id": "assistantbench.imp.0",
+                "benchmark": "assistantbench",
+                "task_index": 1,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
