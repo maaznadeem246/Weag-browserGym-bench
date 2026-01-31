@@ -1,0 +1,294 @@
+{
+  "participants": {
+    "purple_web_agent": "019bc37c-3820-7993-bda5-a15ba1fadfcb"
+  },
+  "results": [
+    {
+      "status": "timeout",
+      "error": "Assessment exceeded 1140s timeout",
+      "timeout_config": {
+        "total_tasks": 6,
+        "timeout_per_task": 120,
+        "executor_timeout": 1140.0
+      },
+      "partial_results": {
+        "mode": "multi",
+        "run_id": "miniwob.click-test",
+        "orchestrated_by_llm": true,
+        "total_tasks": 6,
+        "passed_tasks": 1,
+        "failed_tasks": 1,
+        "completed_tasks": 2,
+        "success_rate": 0.5,
+        "total_tokens": 0,
+        "total_latency_ms": 0,
+        "total_actions": 0,
+        "benchmarks": [
+          "miniwob",
+          "assistantbench",
+          "weblinx"
+        ],
+        "task_results": [
+          {
+            "task_id": "miniwob.ascending-numbers",
+            "benchmark": "miniwob",
+            "task_index": 0,
+            "status": "failed",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": true,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": "2026-01-31T23:31:05.279212",
+            "end_time": "2026-01-31T23:31:05.281060",
+            "completion_time": 0.0,
+            "error": "Invalid action at index 0: Invalid action type: mouse_move"
+          },
+          {
+            "task_id": "miniwob.bisect-angle",
+            "benchmark": "miniwob",
+            "task_index": 1,
+            "status": "completed",
+            "success": true,
+            "final_reward": 1.0,
+            "done": true,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": "2026-01-31T23:35:25.398706",
+            "end_time": "2026-01-31T23:35:25.399877",
+            "completion_time": 0.00017714500427246094,
+            "error": null
+          },
+          {
+            "task_id": "assistantbench.imp.0",
+            "benchmark": "assistantbench",
+            "task_index": 2,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          },
+          {
+            "task_id": "assistantbench.test.0",
+            "benchmark": "assistantbench",
+            "task_index": 3,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          },
+          {
+            "task_id": "weblinx.arlgkzv.1",
+            "benchmark": "weblinx",
+            "task_index": 4,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          },
+          {
+            "task_id": "weblinx.arlgkzv.10",
+            "benchmark": "weblinx",
+            "task_index": 5,
+            "status": "pending",
+            "success": false,
+            "final_reward": 0.0,
+            "done": false,
+            "truncated": false,
+            "metrics": {
+              "tokens": 0,
+              "latency_ms": 0,
+              "actions": 0,
+              "observations": 0,
+              "mcp_calls": 0
+            },
+            "start_time": null,
+            "end_time": null,
+            "completion_time": 0.0,
+            "error": null
+          }
+        ],
+        "participants": {
+          "purple_agent": {
+            "tasks": [
+              {
+                "task_id": "miniwob.ascending-numbers",
+                "benchmark": "miniwob",
+                "task_index": 0,
+                "status": "failed",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": true,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": "2026-01-31T23:31:05.279212",
+                "end_time": "2026-01-31T23:31:05.281060",
+                "completion_time": 0.0,
+                "error": "Invalid action at index 0: Invalid action type: mouse_move"
+              },
+              {
+                "task_id": "miniwob.bisect-angle",
+                "benchmark": "miniwob",
+                "task_index": 1,
+                "status": "completed",
+                "success": true,
+                "final_reward": 1.0,
+                "done": true,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": "2026-01-31T23:35:25.398706",
+                "end_time": "2026-01-31T23:35:25.399877",
+                "completion_time": 0.00017714500427246094,
+                "error": null
+              },
+              {
+                "task_id": "assistantbench.imp.0",
+                "benchmark": "assistantbench",
+                "task_index": 2,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              },
+              {
+                "task_id": "assistantbench.test.0",
+                "benchmark": "assistantbench",
+                "task_index": 3,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              },
+              {
+                "task_id": "weblinx.arlgkzv.1",
+                "benchmark": "weblinx",
+                "task_index": 4,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              },
+              {
+                "task_id": "weblinx.arlgkzv.10",
+                "benchmark": "weblinx",
+                "task_index": 5,
+                "status": "pending",
+                "success": false,
+                "final_reward": 0.0,
+                "done": false,
+                "truncated": false,
+                "metrics": {
+                  "tokens": 0,
+                  "latency_ms": 0,
+                  "actions": 0,
+                  "observations": 0,
+                  "mcp_calls": 0
+                },
+                "start_time": null,
+                "end_time": null,
+                "completion_time": 0.0,
+                "error": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

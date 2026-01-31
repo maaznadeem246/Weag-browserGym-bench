@@ -1,0 +1,19 @@
+[green_agent]
+agentbeats_id = "019bc371-7da8-7023-ab80-1c922841859d"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}", GREEN_LLM_PROVIDER = "openai", GREEN_OPENAI_MODEL = "gpt-5", LOG_LEVEL = "INFO", BROWSERGYM_WEBLINX_CACHE_DIR = "./datasets/weblinx", BROWSERGYM_WEBLINX_REGISTER_TRAIN = "false", BROWSERGYM_WEBLINX_REGISTER_VALID = "false", BROWSERGYM_WEBLINX_REGISTER_TEST = "true", BROWSERGYM_WEBLINX_REGISTER_TEST_OOD = "false"  }
+
+[[participants]]
+agentbeats_id = "019bc37c-3820-7993-bda5-a15ba1fadfcb"
+name = "purple_web_agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", PURPLE_LLM_PROVIDER = "openai", PURPLE_OPENAI_MODEL = "gpt-5" }
+
+
+[config]
+# Add your assessment config here
+# Domain-specific settings
+domain = "browsergym"  # benchmark domain: browsergym, airline, etc.
+# Assessment execution settings
+timeout_seconds = 120  # Default timeout for the whole assessment run (seconds)
+max_steps = 10  # Default max steps per task (passed to Green Agent)
+max_tasks_per_benchmark = 2  # Default max tasks per benchmark
+headless = true  # Browser visibility (false = visible, true = headless)
