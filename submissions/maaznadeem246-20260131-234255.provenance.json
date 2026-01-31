@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/maaznadeem246/weag-green-agent@sha256:96a9b9df9f957bb514ac960f33ec31273d2e65605461acda674fe258318ef41c",
+    "purple_web_agent": "ghcr.io/maaznadeem246/weag-purple-agent@sha256:aed36f1bc4ab73af5d03a1bbdf3df89443cec0063c5a562b6031fa66c8900e6b",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T23:42:55Z",
+  "github_actions": {
+    "run_url": "https://github.com/maaznadeem246/Weag-browserGym-bench/actions/runs/21552589481",
+    "run_logs_url": "https://api.github.com/repos/maaznadeem246/Weag-browserGym-bench/actions/runs/21552589481/logs",
+    "ref": "refs/heads/maaznadeem246-patch-13",
+    "sha": "b25bf12794ceb703cd93b8239f53d197e77ea54e",
+    "repository_url": "https://github.com/maaznadeem246/Weag-browserGym-bench",
+    "workflow_ref": "maaznadeem246/Weag-browserGym-bench/.github/workflows/run-scenario.yml@refs/heads/maaznadeem246-patch-13",
+    "workflow_sha": "b25bf12794ceb703cd93b8239f53d197e77ea54e"
+  }
+}
